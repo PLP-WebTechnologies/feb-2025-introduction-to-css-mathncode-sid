@@ -1,0 +1,119 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ededed;
+    background-color: #081b29;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Profile Container */
+#profile {
+    background-color: #081b29;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Picture */
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #10e4eb;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    color: #10e4eb;
+    margin-bottom: 10px;
+}
+
+h2.section-title {
+    font-size: 1.5rem;
+    color: #10e4eb;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Bio Paragraph */
+.bio {
+    font-size: 1rem;
+    color: #ededed;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Interests List */
+.interests-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.interests-list li {
+    font-size: 1rem;
+    color: #ededed;
+    padding: 5px 0;
+}
+
+/* Portfolio Link */
+.portfolio-link {
+    display: inline-block;
+    background-color: #10e4eb;
+    color: #ededed;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-link:hover {
+    background-color: #ededed;
+    color: #081b29;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    #profile {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2.section-title {
+        font-size: 1.3rem;
+    }
+
+    .bio {
+        font-size: 0.9rem;
+    }
+
+    .portfolio-link {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
